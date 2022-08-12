@@ -1,0 +1,42 @@
+/*  Inicio del Footer.---------------------- */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 15px 0 15px;
+  }
+  
+  .navFooter {
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    margin-left: 15px;
+  
+    li {
+      margin: 5px 0;
+    }
+  }
+  
+  .logoFooter {
+    width: 80px;
+  }
+  
+  .navContactoFooter {
+    text-align: right;
+    margin-right: 15px;
+  
+    li {
+      display: inline-block;
+    }
+  }
+  
+  .creador {
+    text-align: center;
+    margin: 5px;
+    background-color: $colorqrs;
+    font-size: 1.2rem;
+  }
+  
+  /* Fin del Footer.-------------------------- */

@@ -1,0 +1,42 @@
+/* Media Querys.--------------------------- */
+
+/* Vista Tablet */
+@media screen and (max-width: 1024px) {
+  .mapa {
+    display: none;
+  }
+}
+
+/* Vista Mobile */
+
+@media screen and (max-width: 990px) {
+  .buttonSearch {
+    display: none;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .navFooter,
+  .imgFooter,
+  .navContactoFooter {
+    margin: 10px 0;
+  }
+
+
+  .formContacto {
+    min-width: 80%;
+  }
+
+  .platosPadre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .comida {
+    border: none;
+  }
+}

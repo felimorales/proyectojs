@@ -1,0 +1,96 @@
+
+
+/* Reseteo */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Diseño general */
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*  Inicio del Header.---------------------- */
+
+header {
+  li {
+    font-size: 1.8rem;
+    margin: 6px;
+  }
+
+  ul {
+    margin: auto;
+  }
+}
+
+.navbar {
+  text-align: center;
+}
+
+.buttonSearch {
+  font-size: 1.4rem;
+}
+
+.dropdown-item {
+  font-size: 1.2rem;
+
+}
+
+#logoPrincipal {
+  width: 90px;
+}
+
+#logIn {
+  width: 30px;
+}
+
+.logosApps {
+  width: 35px;
+}
+
+.btn {
+  color: $colorqrs;
+  border-color: $colorqrs;
+
+  &:hover {
+    background-color: $colorqrs;
+    border-color: $colorqrs;
+  }
+}
+
+/* Animacion Menu */
+
+.menuLink:hover {
+  color: $colorqrs !important;
+  
+}
+
+/* Animacion Subrayado Menu 
+.menuLink {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .3s;
+}
+
+.menuLink:hover, .menuLink:focus {
+    background-size: 100% 1px;
+
+}
+*/
+
+/* Fin del Header.-------------------------- */
+
