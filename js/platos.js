@@ -14,34 +14,7 @@ class Producto {
   }
 }
 
-//Productos
-const productos = [
-  new Producto("Lasagna de acelga", 10, "../img/vegie1.jpeg", "vegie"),
-  new Producto("Guiso de lentejas", 20, "../img/vegie2.jpeg", "vegie"),
-  new Producto("Malfatti de espinaca", 30, "../img/vegie3.jpeg", "vegie"),
-  new Producto(
-    "Fideos de zucchini y zanahoria",
-    40,
-    "../img/vegie4.jpeg",
-    "vegie"
-  ),
-  new Producto("Fideos de repollo", 50, "../img/vegie5.jpeg", "vegie"),
-  new Producto("Pan de carne relleno", 60, "../img/carne1.jpeg", "carne"),
-  new Producto(
-    "Rollito de cerdo c/pure de coliflor",
-    70,
-    "../img/carne2.jpeg",
-    "carne"
-  ),
-  new Producto("Pechuga rellena", 80, "../img/carne3.jpeg", "carne"),
-  new Producto("Tacos de pollo", 90, "../img/carne4.jpeg", "carne"),
-  new Producto(
-    "Empanadas de carne c/ masa de calabaza",
-    100,
-    "../img/carne5.jpeg",
-    "carne"
-  ),
-];
+
 
 /* console.log(productos[]); */
 
@@ -104,8 +77,13 @@ function createPlato(producto) {
 let contenedorVegie = document.getElementById("platos-vegie");
 let contenedorCarne = document.getElementById("platos-carne");
 
-for (const prod of productos) {
-  const prods = createPlato(prod);
+
+//traer con fetch los platos
+fetch("../productos.json")
+.then(response => response.json())
+.then(productos => 
+  productos.forEach(prod => {
+    const prods = createPlato(prod);
 
   if (prod.tipo === "vegie") {
     contenedorVegie.append(prods);
@@ -113,6 +91,7 @@ for (const prod of productos) {
     contenedorCarne.append(prods);
   }
   prods.className = "platos";
-}
+  })
+  )
 
-
+  console.log(carrito);

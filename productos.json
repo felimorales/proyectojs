@@ -1,0 +1,12 @@
+[
+{"nombre":"Lasagna de acelga", "precio" : 10,"img": "../img/vegie1.jpeg","tipo":  "vegie", "cantidad": 0},
+{"nombre":"Guiso de lentejas", "precio" : 20,"img": "../img/vegie2.jpeg","tipo":  "vegie", "cantidad": 0},
+{"nombre":"Malfatti de espinaca", "precio" : 30,"img": "../img/vegie3.jpeg","tipo":  "vegie", "cantidad": 0},
+{"nombre":"Fideos de zucchini y zanahoria", "precio" : 40,"img": "../img/vegie4.jpeg","tipo": "vegie", "cantidad": 0},
+{"nombre":"Fideos de repollo", "precio" : 50,"img": "../img/vegie5.jpeg","tipo":  "vegie", "cantidad": 0},
+{"nombre":"Pan de carne relleno", "precio" : 60,"img": "../img/carne1.jpeg", "tipo": "carne", "cantidad": 0},
+{"nombre":"Rollito de cerdo c/pure de coliflor","precio" :70,"img": "../img/carne2.jpeg","tipo": "carne", "cantidad": 0},
+{"nombre":"Pechuga rellena", "precio" : 80,"img": "../img/carne3.jpeg", "tipo": "carne", "cantidad": 0},
+{"nombre":"Tacos de pollo", "precio" : 90,"img": "../img/carne4.jpeg","tipo":  "carne", "cantidad": 0},
+{"nombre":"Empanadas de carne c/ masa de calabaza", "precio" : 100,"img": "../img/carne5.jpeg", "tipo": "carne", "cantidad": 0}
+]
