@@ -435,6 +435,22 @@ iframe {
   padding-top: 15px;
   font-size: 1.8rem; }
 
+#prodDetalle {
+  min-height: 250px; }
+
+#comprar {
+  text-align: right;
+  width: 90%;
+  margin: auto;
+  padding-right: 60px; }
+  #comprar .btn {
+    font-size: 1.8rem;
+    background-color: #d27109;
+    color: #fff; }
+  #comprar .btn:hover {
+    background-color: #fff;
+    color: #d27109; }
+
 .tituloCarrito {
   margin: 10px 0px 20px 0px;
   padding-bottom: 20px;

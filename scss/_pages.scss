@@ -355,6 +355,27 @@ font-family:Arial, Helvetica, sans-serif;
   padding-top: 15px;
   font-size: 1.8rem;
 }
+
+#prodDetalle {
+  min-height: 250px;
+}
+
+#comprar{
+  text-align: right;
+  width: 90%;
+  margin: auto;
+  padding-right: 60px;
+  .btn{
+    font-size: 1.8rem;
+    background-color: $colorqrs;
+    color: #fff;
+    
+  }
+  .btn:hover{
+    background-color: #fff;
+    color: $colorqrs;
+  }
+}
 .tituloCarrito{
   margin: 10px 0px 20px 0px;
   padding-bottom: 20px;
@@ -390,6 +411,7 @@ font-family:Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   align-items: center;
     }
+
 
  .precioCarrito, .totalCarrito{
   margin-left: 10px;
